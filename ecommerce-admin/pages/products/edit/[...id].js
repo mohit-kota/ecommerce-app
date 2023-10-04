@@ -21,7 +21,7 @@ export default function EditProductPage(){
             axios.get('/api/products?id='+id).then(response =>{
                 // setTitle(response?.data?.title);
                 // setDescription(response?.data?.description);
-                // setPrice(response?.data?.price);
+                // setPrice(response?.data?.price); 
             })
         }
         else{
